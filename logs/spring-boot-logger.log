@@ -1,0 +1,55 @@
+2022-04-04 20:20:07,681 INFO org.springframework.boot.StartupInfoLogger [main] Starting TodoAppAssignmentApplicationTests using Java 11.0.8 on Sam with PID 4344 (started by Asus in C:\Husqvarna\todo-app-assignment)
+2022-04-04 20:20:07,697 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-04 20:20:08,775 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-04 20:20:08,837 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2022-04-04 20:20:09,556 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-04-04 20:20:09,790 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-04-04 20:20:09,868 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-04 20:20:09,946 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-04 20:20:09,993 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 20:20:10,462 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-04 20:20:11,149 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 20:20:11,165 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-04 20:20:11,821 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-04 20:20:11,946 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:todoDB'
+2022-04-04 20:20:13,227 INFO org.springframework.boot.StartupInfoLogger [main] Started TodoAppAssignmentApplicationTests in 5.942 seconds (JVM running for 8.271)
+2022-04-04 20:20:13,274 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-04 20:20:13,274 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-04 20:20:13,274 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringApplicationShutdownHook] SQL Error: 90121, SQLState: 90121
+2022-04-04 20:20:13,274 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringApplicationShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-04 20:20:13,274 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringApplicationShutdownHook] SQL Error: 90121, SQLState: 90121
+2022-04-04 20:20:13,274 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringApplicationShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-04 20:20:13,289 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringApplicationShutdownHook] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-04 20:20:13,289 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-04-04 20:20:13,289 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-04-04 20:20:53,006 INFO org.springframework.boot.StartupInfoLogger [main] Starting TodoAppAssignmentApplication using Java 11.0.8 on Sam with PID 2612 (C:\Husqvarna\todo-app-assignment\target\classes started by Asus in C:\Husqvarna\todo-app-assignment)
+2022-04-04 20:20:53,022 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-04 20:20:54,100 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-04 20:20:54,162 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2022-04-04 20:20:55,237 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-04-04 20:20:55,268 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-04 20:20:55,268 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-04-04 20:20:55,268 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-04 20:20:55,409 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-04-04 20:20:55,409 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2325 ms
+2022-04-04 20:20:55,455 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-04-04 20:20:55,659 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-04-04 20:20:55,674 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:todoDB'
+2022-04-04 20:20:55,877 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-04 20:20:55,955 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-04 20:20:56,377 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 20:20:56,518 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-04 20:20:57,221 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 20:20:57,236 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-04 20:20:57,721 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-04 20:20:58,174 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-04 20:20:58,189 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/todo-application'
+2022-04-04 20:20:58,533 INFO org.springframework.boot.StartupInfoLogger [main] Started TodoAppAssignmentApplication in 6.268 seconds (JVM running for 7.033)
+2022-04-04 20:21:11,160 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-04 20:21:11,161 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-04-04 20:21:11,164 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-04-04 20:21:23,942 INFO com.todo.assignment.service.UserService [http-nio-8080-exec-5] Getting all users
+2022-04-04 20:21:49,261 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-04 20:21:49,261 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-04 20:21:49,276 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-04-04 20:21:49,276 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
